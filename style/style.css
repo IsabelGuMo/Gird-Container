@@ -1,0 +1,34 @@
+.gird-container {
+    background-color: olive;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "header header header"
+    "menu main main"
+    "menu footer footer";
+    
+
+}
+.gird-container div {
+    background-color: orange;
+    text-align: center;
+    color: wheat;
+    border: 1px solid black;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2  {
+    grid-area: menu;
+}
+
+.item3  {
+    grid-area: main;
+}
+
+.item4  {
+    grid-area: footer;
+}
